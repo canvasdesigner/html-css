@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídias</title>
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fot m.png" type="image/png">
+        <img src="imagens/foto g.png" alt="imagem flexível">
+    </picture>
+   <picture> <source media="(max-width: 750px)" srcset="imagens/foto p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/fot m.png" type="image/png"></picture>
+<h2>reproduzir audio</h2>
+<audio preload="metadata" autoplay controls loop>
+    <source src="mídias/guanacast-33.mp3" type="audio/mpeg">
+    <source src="mídias/guanacast-33.mp3" type="audio/ogg">
+    <a href="mídias/guanacast-33.mp3"></a>
+</audio>
+</body>
+</html>
